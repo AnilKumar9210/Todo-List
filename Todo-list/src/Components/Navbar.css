@@ -1,0 +1,33 @@
+nav {
+    width: 99%;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: rgb(32, 29, 29);
+    border-radius: 31px;
+    color: white;
+}
+
+nav>ul{
+    display: flex;
+    gap: 8px;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    width: 95px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4px;
+    border-radius: 10px;
+    /* background-color: rgb(73, 64, 64); */
+    /* color: rgb(0, 0, 0); */
+}
+
+nav>ul>li:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+
+}
