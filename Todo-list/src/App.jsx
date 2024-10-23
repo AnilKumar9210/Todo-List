@@ -62,7 +62,7 @@ function App() {
       <div className="AllTodos">
         <h1>Your Todos</h1>
         {todoList.map ((item)=> {
-          return<div key={item.id} className="todoList" id={unFinishedRef.current}>
+          return<div key={item.id} className="todoList" >
         <div className="check">
           <input type="checkbox" onChange={()=>{handleCompleted (item.id)}} />
           <div className="todo">{item.todo}</div>
